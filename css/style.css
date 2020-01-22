@@ -10,21 +10,29 @@
     clear: both;
 }
 
+
 .container_header {
     width: 100%;
     height: 400px;
     background-color: #0d325a;
 }
 
-.nav {
+.container_nav_banner {
     width: 80%;
+    border: 1px solid orange;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
     height: 70px;
     margin: 0 auto;
     border: 1px solid white;
+    line-height: 90px;
 }
 
 .banner {
-    width: 80%;
+    width: 100%;
     height: 330px;
     margin: 0 auto;
     border: 1px solid white;
