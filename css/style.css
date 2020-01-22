@@ -15,6 +15,10 @@
 
 .container_header {
     width: 100%;
+    background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
     background-color: #0d325a;
 }
 
@@ -106,6 +110,7 @@ ul {
 
 h1 {
     color: white;
+    width: 50%;
     font-size: 50px;
     font-weight: normal;
     padding-top: 50px;
