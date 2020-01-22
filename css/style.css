@@ -70,3 +70,34 @@ ul {
 .nav_col_3 {
     float: right;
 }
+
+.nav_col_3 li:nth-of-type(1) {
+    color: rgba(255,255,255,0.5);
+}
+
+.login_button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #4e8cb6;
+    background-color: #0d325a;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.partner_button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #7fb802;
+    background-color: #7fb802;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
