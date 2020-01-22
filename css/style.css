@@ -9,7 +9,9 @@
     display: table;
     clear: both;
 }
-
+ body {
+     font-family: 'Ubuntu', sans-serif;
+ }
 
 .container_header {
     width: 100%;
@@ -28,7 +30,11 @@
     height: 70px;
     margin: 0 auto;
     border: 1px solid white;
-    line-height: 90px;
+}
+
+img {
+    padding-left: 10px;
+    padding-top: 15px;
 }
 
 .banner {
@@ -36,4 +42,31 @@
     height: 330px;
     margin: 0 auto;
     border: 1px solid white;
+}
+
+ul {
+    display: inline-block;
+    height: 70px;
+    padding-left: 80px;
+    line-height: 75px;
+}
+
+.nav ul li {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.nav_col_1 {
+    float: left;
+}
+
+.nav_col_2 {
+    float: left;
+}
+
+.nav_col_3 {
+    float: right;
 }
