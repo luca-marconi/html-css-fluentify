@@ -9,3 +9,23 @@
     display: table;
     clear: both;
 }
+
+.container_header {
+    width: 100%;
+    height: 400px;
+    background-color: #0d325a;
+}
+
+.nav {
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+.banner {
+    width: 80%;
+    height: 330px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
