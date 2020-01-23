@@ -11,18 +11,25 @@
 }
  body {
      font-family: 'Ubuntu', sans-serif;
+     overflow: hidden;
+     max-width: 2000px;
  }
 
 .container_header {
     width: 100%;
     background-color: #0d325a;
+    max-width: 2000px;
+}
+
+.main {
+
 }
 
 .background {
     background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
     background-size: cover;
     background-repeat: no-repeat;
-    float: left;
+    margin-left:35%;
     width: 50%;
     height: 330px;
 
@@ -98,7 +105,8 @@ ul {
     width: 80px;
     height: 30px;
     border-radius: 5px;
-    border-color: #4e8cb6;
+    border: none;
+    border-color: 1px solid #4e8cb6;
     background-color: #0d325a;
     color: white;
     cursor: pointer;
@@ -112,6 +120,7 @@ ul {
     width: 150px;
     height: 30px;
     border-radius: 5px;
+    border: none;
     border-color: #7fb802;
     background-color: #7fb802;
     color: white;
